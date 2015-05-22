@@ -11,11 +11,11 @@ var profiles  = require('./data/mock_profiles_array.json')
 var location  = require('./data/mock_location_label_array.json')
 
 
-var api_key = "25771ed70676edf6676af746182e2562"
-var secret  = "e60d89bae9141b499c9a33c8936cc8501c9b0589f7bc708bb90e39a444a2570a"
+var api_key = "052bd650892c3d652a3534ca74ae4e4a"
+var secret  = "199a1c7517d7d86015423aa98b8d5b75d997869eae97edfbbedfc0933e80e19a"
 
-var profile_type_id  = "t_d9abae8cdd1a681aec9cea295b61c15f-720"
-var location_type_id = "t_0efe4d496756ece82b87e7567ba9ecce-377"
+var profile_type_id  = "t_add9c64792fcc15ad5c72f67d306bee2-744"
+var location_type_id = "t_d2e8659dc91ac548b01aa15c27ca7f5d-389"
 
 var permissions
 
@@ -27,42 +27,42 @@ var profile_type  = {
          "@data_type": "string",
          "@multiple": false,
          "@required": true,
-         "@context": "First Name"
+         "@description": "First Name"
       },
       {
          "@property_name": "last_name",
          "@data_type": "string",
          "@multiple": false,
          "@required": true,
-         "@context": "Last Name"
+         "@description": "Last Name"
       },
       {
          "@property_name": "email",
          "@data_type": "string",
          "@multiple": false,
          "@required": true,
-         "@context": "Email Address"
+         "@description": "Email Address"
       },
       {
          "@property_name": "city",
          "@data_type": "string",
          "@multiple": false,
          "@required": true,
-         "@context": "Current City"
+         "@description": "Current City"
       },
       {
          "@property_name": "country",
          "@data_type": "string",
          "@multiple": false,
          "@required": true,
-         "@context": "Current Country"
+         "@description": "Current Country"
       },
       {
          "@property_name": "employer",
          "@data_type": "string",
          "@multiple": false,
          "@required": true,
-         "@context": "Employer Name"
+         "@description": "Employer Name"
       }
    ]
 }
@@ -75,21 +75,21 @@ var location_type = {
          "@data_type": "string",
          "@multiple": false,
          "@required": true,
-         "@context": "Checking Point Label"
+         "@description": "Checking Point Label"
       },
       {
          "@property_name": "lat",
          "@data_type": "float",
          "@multiple": false,
          "@required": true,
-         "@context": "Latitude"
+         "@description": "Latitude"
       },
       {
          "@property_name": "long",
          "@data_type": "float",
          "@multiple": false,
          "@required": true,
-         "@context": "Longitude"
+         "@description": "Longitude"
       }
    ]
 }
